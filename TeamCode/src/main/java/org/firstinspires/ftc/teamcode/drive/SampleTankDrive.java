@@ -93,6 +93,7 @@ public class SampleTankDrive extends TankDrive {
                 DriveConstants.LOGO_FACING_DIR, DriveConstants.USB_FACING_DIR));
         imu.initialize(parameters);
 
+        
         // add/remove motors depending on your robot (e.g., 6WD)
         DcMotorEx leftFront = hardwareMap.get(DcMotorEx.class, "leftFront");
         DcMotorEx leftRear = hardwareMap.get(DcMotorEx.class, "leftRear");
